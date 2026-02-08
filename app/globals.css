@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+header {
+  position: relative;
+}
+
+body {
+  position: relative;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/static/websiteBackground.jpg);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.25;
+  }
+}
+
+main {
+  position: relative;
+}
+
+.info {
+  padding: 1rem;
+  background-color: rgba(80, 80, 80, 0.66);
+  border-radius: 16px;
+}
+
+.scoreboard {
+  padding: 0.5rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(185, 42, 32, 0.9),
+    rgba(197, 182, 44, 0.9)
+  );
+
+  border: 1px solid #777;
+  border-radius: 16px;
+}
+
+.game-card {
+  background-image: linear-gradient(
+    rgba(80, 80, 80, 0.75),
+    rgba(50, 50, 50, 0.75)
+  );
+  border: 1px solid #777;
+  border-radius: 16px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.hint-card {
+  background-image: linear-gradient(rgb(80, 80, 80), rgb(50, 50, 50));
+  border: 1px solid #777;
+  border-radius: 16px;
+  padding: 4px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+h1 {
+  margin-top: 4px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 4px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 4px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.left-button {
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem;
+  margin: auto;
+  border-radius: 0.75rem;
+  border-color: #777;
+  border-width: 1px;
+  background-image: linear-gradient(to bottom, #777e20, #b9a80e);
+}
+
+.right-button {
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem;
+  margin: auto;
+  border-radius: 0.75rem;
+  border-color: #777;
+  border-width: 1px;
+  background-image: linear-gradient(to top, #777e20, #b9a80e);
+}
+
+.solution-button {
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem;
+  margin: auto;
+  border-radius: 0.75rem;
+  border-color: #777;
+  border-width: 1px;
+  background-image: linear-gradient(to right, #777e20, #b9a80e);
+}
+
+button {
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05) translateY(-1px);
+}
+
+.link {
+  color: #60a5fa;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #ecd929;
+}
