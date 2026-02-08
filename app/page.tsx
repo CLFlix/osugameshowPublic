@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const Home = () => {
   const [participants, setParticipants] = useState<string>("");
   useEffect(() => {
-    fetch("../static/participants.txt")
+    fetch("/static/participants.txt")
       .then((file) => file.text())
       .then((participants) => {
         setParticipants(participants);
