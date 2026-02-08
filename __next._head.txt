@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/osugameshow/_next/static/chunks/ff1a16fafef87110.js","/osugameshow/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+3:I[97367,["/osugameshow/_next/static/chunks/ff1a16fafef87110.js","/osugameshow/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[27201,["/osugameshow/_next/static/chunks/ff1a16fafef87110.js","/osugameshow/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+0:{"buildId":"rKWW9Wlqjt8N1lMPaF4K4","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"osu! Gameshow"}],["$","meta","1",{"name":"description","content":"osu! Gameshow hosted by _Kurookami_"}],["$","link","2",{"rel":"icon","href":"/osugameshow/icon.ico?icon.e076b76e.ico","sizes":"2000x2000","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],null]}],"loading":null,"isPartial":false}
