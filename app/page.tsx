@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <div className="m-4 flex justify-center">
-        <div className="max-w-[40%] info">
+        <div className="max-w-[40%] max-xl:max-w-[70%] info">
           <h1>osu! Gameshow</h1>
           <strong>
             Hosted by{" "}
