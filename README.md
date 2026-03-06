@@ -8,10 +8,6 @@
 
 In this round, players will try to guess what beatmap a background comes from, based on seeing only a small part of the background. Asking for a hint will make a bigger part of the beatmap available.
 
-### Guess The Beatmap
-
-Based on the composition of the map only, the participants will have to guess what beatmap is shown to them. A hint will reveal a fact about the map or something related to the map.
-
 ### Guess The Song
 
 From a very short audio clip, the participants need to give me the title of the song that is being played. If they need to, they can use one of their hints to reveal a longer audio clip.

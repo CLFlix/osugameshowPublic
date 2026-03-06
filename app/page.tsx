@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <div className="m-4 flex justify-center">
-        <div className="max-w-[40%] max-xl:max-w-[70%] info">
+        <div className="max-w-[40%] max-xl:max-w-[90%] info">
           <h1>osu! Gameshow</h1>
           <strong>
             Hosted by{" "}
@@ -29,12 +29,6 @@ const Home = () => {
             In this round, players will try to guess what beatmap a background
             comes from, based on seeing only a small part of the background.
             Asking for a hint will make a bigger part of the beatmap available.
-          </p>
-          <h3>Guess The Beatmap</h3>
-          <p>
-            Based on the composition of the map only, the participants will have
-            to guess what beatmap is shown to them. A hint will reveal a fact
-            about the map or something related to the map.
           </p>
           <h3>Guess The Song</h3>
           <p>
