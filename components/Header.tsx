@@ -9,7 +9,7 @@ const Header = () => {
   const links = [{ href: "/", label: "Home" }];
 
   return (
-    <header className="bg-gradient-to-r from-amber-700 to-green-500 py-1">
+    <header className="bg-gradient-to-r from-[#907c1d] to-[#52832f] py-1">
       <nav className="text-2xl">
         <ul className="flex gap-8 justify-center">
           {links.map((link, index) => (
