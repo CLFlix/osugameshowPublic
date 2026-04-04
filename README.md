@@ -37,7 +37,6 @@ The top 3 players will receive prizes, the two others will walk away with empty 
 | Discord       | osu!            |
 | ------------- | --------------- |
 | Hotshot       | hotshotcornet   |
-| Bo_R_eD       | Bo_R_eD         |
 | gewoonalicia  | MysticGamerGirl |
 | Yixzie-Lyttle | YIXZIE-LYTTLE09 |
 | m.xiax        | mqixa           |
