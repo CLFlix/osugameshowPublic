@@ -23,6 +23,15 @@ const Home = () => {
               _Kurookami_
             </a>
           </strong>
+          <h2>Format</h2>
+          <p>
+            Every round, I will spin a wheel which decides who gets to choose a
+            number from 1-8. That number will be the question you pick, having a
+            chance to answer it. This wheel will be refilled when everyone has
+            had their turn, so this process starts again. There are 8 questions
+            per round, which means every participant will have at 2 chances at
+            answering a question each round.
+          </p>
           <h2>Rounds</h2>
           <h3>Guess The Background</h3>
           <p>
@@ -105,6 +114,15 @@ const Home = () => {
               ))}
             </tbody>
           </table>
+          <h2>Questions</h2>
+          <p>
+            If you have any questions, you can let me know in the questions
+            channel in the discord!
+          </p>
+          <p className="text-xs">
+            (If you're not in the discord for this gameshow, you shouldn't be in
+            the gameshow, also how tf did you land here??)
+          </p>
         </div>
       </div>
     </>
