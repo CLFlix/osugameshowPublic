@@ -1,2 +1,2 @@
-:HL["/osugameshowPublic/_next/static/chunks/0c06d_yc23ayz.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"aHKhFIDyvdcUK5q1aCkoR"}
+:HL["/osugameshowPublic/_next/static/chunks/da4987d07dae95c4.css","style"]
+0:{"buildId":"Eb0eNhTbflLVdl-6VC9_E","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
