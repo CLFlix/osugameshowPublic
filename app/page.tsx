@@ -26,10 +26,10 @@ const Home = () => {
           <h2>Format</h2>
           <p>
             Every round, I will spin a wheel which decides who gets to choose a
-            number from 1-8. That number will be the question you pick, having a
-            chance to answer it. This wheel will be refilled when everyone has
-            had their turn, so this process starts again. There are 8 questions
-            per round, which means every participant will have at 2 chances at
+            number from 1-8. The number you choose, will correspond to a
+            specific question. This wheel will be refilled when everyone has had
+            their turn, so this process starts again. There are 8 questions per
+            round, which means every participant will have at least 2 chances at
             answering a question each round.
           </p>
           <h2>Rounds</h2>
@@ -49,11 +49,14 @@ const Home = () => {
           <p>
             Inspired by BTMC's mapper anagrams, this round will have the players
             guess what artist name is hidden in the scrambled bunch of letters.
+            Hints will reveal two songs made by that artist.
           </p>
           <h3>Trivia</h3>
           <p>
             Every traditional gameshow must have some shape or form of trivia.
-            The last round is exactly that.
+            The last round is exactly that. Simple questions about the history,
+            facts, mechanics, etc. about the game. Hints will give a little
+            steering towards the answer like in a traditional quiz.
           </p>
           <h2>Points</h2>
           <p>
@@ -63,14 +66,13 @@ const Home = () => {
           </p>
           <h2>Prizepool</h2>
           <p>
-            The top 3 players will receive prizes, the rest walk away with empty
-            hands. Despite these prizes laying on the table, I'd like for
-            everyone to have a fun time and enjoy participating in this first
-            edition of the osu! gameshow, hosted by me,{" "}
-            <strong>_Kurookami_</strong>. Only then will I consider making a
-            second edition of this. Let's hope that we can either do this again
-            or other people can get the chance to participate in Kurookami's
-            osu!gameshow.
+            No one will leave empty-handed! Of course, you'll have to fight for
+            the best price there is! Despite these prizes laying on the table,
+            I'd like for everyone to have a fun time and enjoy participating in
+            this first edition of the osu! gameshow. Only then can I consider
+            making a second edition of this. Let's hope that we can either do
+            this again or other people can get the chance to participate in
+            Kurookami's osu!gameshow.
           </p>
           <p className="mt-2 text-lg">
             <strong>Prizes</strong>
