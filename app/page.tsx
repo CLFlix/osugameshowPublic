@@ -37,7 +37,8 @@ const Home = () => {
           <p>
             In this round, players will try to guess what beatmap a background
             comes from, based on seeing only a small part of the background.
-            Asking for a hint will make a bigger part of the beatmap available.
+            Asking for a hint will make a bigger part of the background
+            available.
           </p>
           <h3>Guess The Song</h3>
           <p>
@@ -50,6 +51,7 @@ const Home = () => {
             Inspired by BTMC's mapper anagrams, this round will have the players
             guess what artist name is hidden in the scrambled bunch of letters.
             Hints will reveal two songs made by that artist.
+            {/* might revise to FA */}
           </p>
           <h3>Trivia</h3>
           <p>
