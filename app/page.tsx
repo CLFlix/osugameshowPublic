@@ -77,18 +77,24 @@ const Home = () => {
           </p>
           <ul>
             <li>
-              <span className="bg-yellow-600 py-1 px-2 rounded-xl">
-                First place: 4 months of osu!supporter
+              <span className="bg-gradient-to-r from-sky-700 to-sky-500 py-1 px-2 rounded-xl">
+                First place: 4 months of osu!supporter + 5x replay analysis in
+                terms of coaching
               </span>
             </li>
             <li className="mt-2">
-              <span className="bg-zinc-500 py-1 px-2 rounded-xl">
-                Second place: 2 months of osu!supporter
+              <span className="bg-gradient-to-r from-yellow-500 to-yellow-600 py-1 px-2 rounded-xl">
+                Second place: 4 months of osu!supporter
               </span>
             </li>
             <li className="mt-2">
-              <span className="bg-orange-800 py-1 px-2 rounded-xl">
-                Third place: 1 month of osu!supporter
+              <span className="bg-gradient-to-r from-zinc-400 to-zinc-500 py-1 px-2 rounded-xl">
+                Third place: 2 months of osu!supporter
+              </span>
+            </li>
+            <li className="mt-2">
+              <span className="bg-gradient-to-r from-orange-600 to-orange-800 py-1 px-2 rounded-xl">
+                Fourth place: 1 month of osu!supporter
               </span>
             </li>
           </ul>
